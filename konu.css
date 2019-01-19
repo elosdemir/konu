@@ -1,0 +1,62 @@
+#menu .col-md-12{
+background: blue;
+color: white;
+}
+.nav-item{
+    background-color: #00d0ff;
+    padding: 5px 25px;
+
+}
+.nav-link{
+    margin:0px 10px;
+}
+.message-area{
+    background:blue;
+    position: relative;
+    height: 50vh;
+    color: #fff;
+}
+.message-position{
+    padding-top: 50px;
+}
+.gonderilen{
+    width: 350px;
+    background: #0e0e35;
+    border-radius: 10px;
+    padding: 8px;
+    border-top-left-radius: 0px;
+}
+.gelen{
+    position: absolute;
+    right: 10px;
+    width: 350px;
+    background: #0e0e35;
+    border-radius: 10px;
+    padding: 8px;
+    border-bottom-right-radius: 0px;
+}
+.p0{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.form-control{
+    border-radius: 0px !important;
+    padding-top: 15px !important;
+}
+textarea::placeholder{
+    color: #000 !important;
+}
+.btn-send{
+    color: #fff;
+    background-color: #00d0ff;
+    padding: 10px 15px;
+    border-radius: 2px;
+
+}
+.btn-send:hover{
+    color: #00d0ff;
+    background-color: #fff;
+    border-radius: 2px;
+    border: 1px solid #00d0ff;
+
+}
